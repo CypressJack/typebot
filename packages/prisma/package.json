@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "dev": "tsx scripts/studio.ts",
-    "db:generate": "tsx scripts/db-generate.ts",
+    "db:generate": "pwd && tsx scripts/db-generate.ts",
     "db:push": "tsx scripts/db-push.ts",
     "migrate:deploy": "tsx scripts/migrate-deploy.ts",
     "migrate:dev": "prisma migrate dev --create-only --schema postgresql/schema.prisma",
