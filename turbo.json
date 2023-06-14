@@ -13,7 +13,7 @@
       "cache": false
     },
     "build": {
-      "dependsOn": ["^build", "@typebot.io/prisma#db:generate"],
+      "dependsOn": ["^build", "@typebot.io/prisma#db:generate", "@typebot.io/prisma#db:push"],
       "outputs": [".next/**", "dist/**", "build/**"],
       "outputMode": "new-only"
     },
